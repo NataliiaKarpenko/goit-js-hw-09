@@ -16,3 +16,28 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  column-gap: 20px;
+  padding-top: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  line-height: 1;
+}
+
+.label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
